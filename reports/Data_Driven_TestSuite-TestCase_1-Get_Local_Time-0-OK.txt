@@ -1,0 +1,51 @@
+Status: OK
+Time Taken: 589
+Size: 352
+Timestamp: Fri Aug 20 20:44:56 CEST 2021
+TestStep: Get Local Time
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://worldtimeapi.org/
+Method: GET
+StatusCode: 200
+URL: http://worldtimeapi.org/api/timezone/Australia/Sydney
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.5 (Java/12.0.1)]
+Host: [worldtimeapi.org]
+Accept-Encoding: [gzip,deflate]
+
+GET http://worldtimeapi.org/api/timezone/Australia/Sydney HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: worldtimeapi.org
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.5 (Java/12.0.1)
+
+
+---------------- Response --------------------------
+date: [Fri, 20 Aug 2021 18:44:54 GMT]
+x-request-id: [Fp0YD4gfqHm33CAABaSh]
+server: [Fly/1632fff (2021-08-19)]
+transfer-encoding: [chunked]
+content-encoding: [gzip]
+x-frame-options: [SAMEORIGIN]
+x-download-options: [noopen]
+x-permitted-cross-domain-policies: [none]
+access-control-expose-headers: []
+via: [1.1 fly.io]
+access-control-allow-origin: [*]
+access-control-allow-credentials: [true]
+cross-origin-window-policy: [deny]
+x-content-type-options: [nosniff]
+x-xss-protection: [1; mode=block]
+fly-request-id: [01FDJE2P58285RCJDMGG81R13J]
+x-runtime: [216ms]
+content-type: [application/json; charset=utf-8]
+#status#: [HTTP/1.1 200 OK]
+cache-control: [max-age=0, private, must-revalidate]
+
+{"abbreviation":"AEST","client_ip":"188.150.85.145","datetime":"2021-08-21T04:44:55.216169+10:00","day_of_week":6,"day_of_year":233,"dst":false,"dst_from":null,"dst_offset":0,"dst_until":null,"raw_offset":36000,"timezone":"Australia/Sydney","unixtime":1629485095,"utc_datetime":"2021-08-20T18:44:55.216169+00:00","utc_offset":"+10:00","week_number":33}
